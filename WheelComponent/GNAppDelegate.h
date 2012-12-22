@@ -10,6 +10,7 @@
 
 @class GNWheelViewController;
 
+
 @interface GNAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
