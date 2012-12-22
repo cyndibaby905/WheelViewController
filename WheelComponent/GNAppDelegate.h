@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class GNViewController;
+@class GNWheelViewController;
 
 @interface GNAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) GNViewController *viewController;
+@property (strong, nonatomic) GNWheelViewController *viewController;
 
 @end

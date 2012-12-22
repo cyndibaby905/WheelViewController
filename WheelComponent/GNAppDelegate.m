@@ -8,7 +8,7 @@
 
 #import "GNAppDelegate.h"
 
-#import "GNViewController.h"
+#import "GNWheelViewController.h"
 
 @implementation GNAppDelegate
 
@@ -23,7 +23,7 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[GNViewController alloc] initWithNibName:@"GNViewController" bundle:nil] autorelease];
+    self.viewController = [[[GNWheelViewController alloc] initWithNibName:@"GNWheelViewController" bundle:nil] autorelease];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

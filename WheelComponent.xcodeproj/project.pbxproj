@@ -16,8 +16,11 @@
 		8AE8CB971685543400FA1B2E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CB961685543400FA1B2E /* Default.png */; };
 		8AE8CB991685543400FA1B2E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CB981685543400FA1B2E /* Default@2x.png */; };
 		8AE8CB9B1685543400FA1B2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CB9A1685543400FA1B2E /* Default-568h@2x.png */; };
-		8AE8CB9E1685543400FA1B2E /* GNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8CB9D1685543400FA1B2E /* GNViewController.m */; };
-		8AE8CBA11685543400FA1B2E /* GNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CB9F1685543400FA1B2E /* GNViewController.xib */; };
+		8AE8CBAC1685552D00FA1B2E /* GNWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8CBA81685552D00FA1B2E /* GNWheelView.m */; };
+		8AE8CBAD1685552D00FA1B2E /* GNWheelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8CBAA1685552D00FA1B2E /* GNWheelViewController.m */; };
+		8AE8CBAE1685552D00FA1B2E /* GNWheelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CBAB1685552D00FA1B2E /* GNWheelViewController.xib */; };
+		8AE8CBB01685557C00FA1B2E /* item.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8CBAF1685557C00FA1B2E /* item.jpg */; };
+		8AE8CBB21685558D00FA1B2E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE8CBB11685558D00FA1B2E /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +37,13 @@
 		8AE8CB961685543400FA1B2E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8AE8CB981685543400FA1B2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8AE8CB9A1685543400FA1B2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8AE8CB9C1685543400FA1B2E /* GNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNViewController.h; sourceTree = "<group>"; };
-		8AE8CB9D1685543400FA1B2E /* GNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNViewController.m; sourceTree = "<group>"; };
-		8AE8CBA01685543400FA1B2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GNViewController.xib; sourceTree = "<group>"; };
+		8AE8CBA71685552D00FA1B2E /* GNWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNWheelView.h; sourceTree = "<group>"; };
+		8AE8CBA81685552D00FA1B2E /* GNWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNWheelView.m; sourceTree = "<group>"; };
+		8AE8CBA91685552D00FA1B2E /* GNWheelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNWheelViewController.h; sourceTree = "<group>"; };
+		8AE8CBAA1685552D00FA1B2E /* GNWheelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNWheelViewController.m; sourceTree = "<group>"; };
+		8AE8CBAB1685552D00FA1B2E /* GNWheelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GNWheelViewController.xib; sourceTree = "<group>"; };
+		8AE8CBAF1685557C00FA1B2E /* item.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item.jpg; sourceTree = "<group>"; };
+		8AE8CBB11685558D00FA1B2E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE8CBB21685558D00FA1B2E /* QuartzCore.framework in Frameworks */,
 				8AE8CB851685543400FA1B2E /* UIKit.framework in Frameworks */,
 				8AE8CB871685543400FA1B2E /* Foundation.framework in Frameworks */,
 				8AE8CB891685543400FA1B2E /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +81,7 @@
 		8AE8CB831685543400FA1B2E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8AE8CBB11685558D00FA1B2E /* QuartzCore.framework */,
 				8AE8CB841685543400FA1B2E /* UIKit.framework */,
 				8AE8CB861685543400FA1B2E /* Foundation.framework */,
 				8AE8CB881685543400FA1B2E /* CoreGraphics.framework */,
@@ -85,9 +94,11 @@
 			children = (
 				8AE8CB931685543400FA1B2E /* GNAppDelegate.h */,
 				8AE8CB941685543400FA1B2E /* GNAppDelegate.m */,
-				8AE8CB9C1685543400FA1B2E /* GNViewController.h */,
-				8AE8CB9D1685543400FA1B2E /* GNViewController.m */,
-				8AE8CB9F1685543400FA1B2E /* GNViewController.xib */,
+				8AE8CBA71685552D00FA1B2E /* GNWheelView.h */,
+				8AE8CBA81685552D00FA1B2E /* GNWheelView.m */,
+				8AE8CBA91685552D00FA1B2E /* GNWheelViewController.h */,
+				8AE8CBAA1685552D00FA1B2E /* GNWheelViewController.m */,
+				8AE8CBAB1685552D00FA1B2E /* GNWheelViewController.xib */,
 				8AE8CB8B1685543400FA1B2E /* Supporting Files */,
 			);
 			path = WheelComponent;
@@ -96,6 +107,7 @@
 		8AE8CB8B1685543400FA1B2E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8AE8CBAF1685557C00FA1B2E /* item.jpg */,
 				8AE8CB8C1685543400FA1B2E /* WheelComponent-Info.plist */,
 				8AE8CB8D1685543400FA1B2E /* InfoPlist.strings */,
 				8AE8CB901685543400FA1B2E /* main.m */,
@@ -163,7 +175,8 @@
 				8AE8CB971685543400FA1B2E /* Default.png in Resources */,
 				8AE8CB991685543400FA1B2E /* Default@2x.png in Resources */,
 				8AE8CB9B1685543400FA1B2E /* Default-568h@2x.png in Resources */,
-				8AE8CBA11685543400FA1B2E /* GNViewController.xib in Resources */,
+				8AE8CBAE1685552D00FA1B2E /* GNWheelViewController.xib in Resources */,
+				8AE8CBB01685557C00FA1B2E /* item.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +189,8 @@
 			files = (
 				8AE8CB911685543400FA1B2E /* main.m in Sources */,
 				8AE8CB951685543400FA1B2E /* GNAppDelegate.m in Sources */,
-				8AE8CB9E1685543400FA1B2E /* GNViewController.m in Sources */,
+				8AE8CBAC1685552D00FA1B2E /* GNWheelView.m in Sources */,
+				8AE8CBAD1685552D00FA1B2E /* GNWheelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +203,6 @@
 				8AE8CB8E1685543400FA1B2E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8AE8CB9F1685543400FA1B2E /* GNViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8AE8CBA01685543400FA1B2E /* en */,
-			);
-			name = GNViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
